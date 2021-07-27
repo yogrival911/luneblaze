@@ -15,7 +15,7 @@ public interface ApiService {
     @POST("react.json")
     Call<ApiResponse> getApiResponse(@Body JsonObject jsonObject);
 
-    @Headers({"Authorization: key=AAAA5fI4UdY:APA91bFX9doqYgeHwG4Fh41qd7w_REBIUDXIethEdErkTN0YcLfuUzhoFmw3hyd5LDPblMWptAi48ZLl56UZlf4M725wJj32hmRaAJ2BoEIjqDRUPe_jLumQWi9IQNQLDtZhDL9fOi-3",
+    @Headers({"Authorization: key=AAAA5fI4UdY:-3",
             "Content-Type:application/json"})
     @POST("fcm/send")
     Call<ResponseBody> sendNotification(@Body JsonObject jsonObject);
